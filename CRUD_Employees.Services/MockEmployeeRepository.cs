@@ -1,6 +1,8 @@
 ﻿using CRUD_Employees.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace CRUD_Employees.Services
@@ -42,6 +44,11 @@ namespace CRUD_Employees.Services
         public IEnumerable<Employee> GetAllEmployees()
         {
             return _employeeList;
+        }
+
+        public Employee GetEmployee(int id)
+        {
+            return _employeeList.FirstOrDefault(x => x.Id == id);
         }
     }
 }

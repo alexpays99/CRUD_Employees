@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesGeneral", "RazorPagesGeneral\RazorPagesGeneral.csproj", "{6047DF12-2D55-4CD9-9187-BD981990D30D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesGeneral", "RazorPagesGeneral\RazorPagesGeneral.csproj", "{6047DF12-2D55-4CD9-9187-BD981990D30D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Employees.Models", "CRUD_Employees.Models\CRUD_Employees.Models.csproj", "{9F709E49-0410-430F-A74D-A6E1BC7B27AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Employees.Models", "CRUD_Employees.Models\CRUD_Employees.Models.csproj", "{9F709E49-0410-430F-A74D-A6E1BC7B27AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Employees.Services", "CRUD_Employees.Services\CRUD_Employees.Services.csproj", "{3882A049-D516-4148-833C-ACD16E191EF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Employees.Services", "CRUD_Employees.Services\CRUD_Employees.Services.csproj", "{3882A049-D516-4148-833C-ACD16E191EF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

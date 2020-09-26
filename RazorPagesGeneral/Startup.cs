@@ -26,6 +26,13 @@ namespace RazorPagesGeneral
         {
             services.AddSingleton<IEmployeeRepository, MockEmployeeRepository>();
             services.AddRazorPages();
+
+            services.Configure<Microsoft.AspNetCore.Routing.RouteOptions>(options =>
+            {
+                options.LowercaseUrls = true;
+                options.LowercaseQueryStrings = true;
+                options.AppendTrailingSlash = true;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
